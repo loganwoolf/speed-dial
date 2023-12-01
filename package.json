@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check": "biome check . --apply",
+    "stylelint": "stylelint **/*.css --fix"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
