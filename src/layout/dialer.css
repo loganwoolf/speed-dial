@@ -1,0 +1,31 @@
+.dialer-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 0;
+  
+  li {
+    list-style: none;
+    aspect-ratio: 3 / 2;
+    border: 2px solid white;
+    padding: 0.5rem;
+  }
+}
+
+li.dialer-button {
+  img {
+    max-width: 100%;
+  }
+}
+
+li.add-dialer-button {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 100%;
+    max-width: 100%;
+  }
+}

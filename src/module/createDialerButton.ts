@@ -5,6 +5,7 @@ const dialerButton = (() => {
 		return createElementFromString(`
       <li class="dialer-button">
         <a href="${url}">
+          <img src="https://picsum.photos/300/200" />
           <span>${name}</span>
         </a>
         <button 

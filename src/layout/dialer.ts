@@ -1,5 +1,6 @@
 import { dialerButton } from "../module/createDialerButton";
 import { createElementFromString } from "../module/parser";
+import "./dialer.css";
 
 const dialer = (() => {
 	const element = createElementFromString(`
@@ -9,9 +10,9 @@ const dialer = (() => {
 				<li class="add-dialer-button">
 					<form>
 						<label for="url">URL</label>
-					  <input type="text" name="url" placeholder="gmail.com" autocomplete="off" />
+						<input type="text" name="url" placeholder="gmail.com" autocomplete="off" />
 						<label for="name">Name</label>
-					  <input type="text" name="name" placeholder="GMail" autocomplete="off"/>
+						<input type="text" name="name" placeholder="GMail" autocomplete="off"/>
 						<button type="submit">Create</button>
 					</form>
 				</li>
